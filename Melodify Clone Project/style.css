@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    background-color:lightslategray;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+
+    font-family: "Open Sans", sans-serif, "Lora", serif ;
+
+}
+
+nav ul{
+    display: flex;
+    align-items:center ;
+    list-style-type: none;
+    height: 50px; 
+    background-color: black;
+    color: azure;
+}
+
+
+nav ul li{
+    padding:0 12px;
+
+}
+
+
+.brand img{
+    width:35px;
+    padding: 6px;
+      
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: azure;
+    font-family: "Open Sans", sans-serif,"Lora", serif ;
+    display: flex;
+    margin:23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 25px;
+    background-image: url('bg1.jpg');
+    
+
+}
+
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    color: azure;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 70vw;
+    cursor: pointer;
+    
+}
+
+.songItemContainer{
+    margin-top: 24px;
+}
+
+.songItem{
+    height:50px;
+    display: flex;
+    background-color: azure;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;;
+
+}
+
+.songItem img{
+    width: 45px;
+    margin:0 23px;
+    border-radius: 34px;
+
+}
+
+.timestamp{
+    margin:0 23px;   
+    
+}
+
+.timestamp i{
+    cursor:pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left:16vw;
+    font-family: "Open Sans", sans-serif,"Lora", serif ;
+}
+
+.songInfo img{
+    opacity:0;
+    transition: opacity is 0.3s ease-in;
+}
